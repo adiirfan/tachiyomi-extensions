@@ -143,7 +143,7 @@ object MDConstants {
         return "${customUserAgentPref}_$dexLang"
     }
 
-    val defaultUserAgent = "Tachiyomi " + System.getProperty("http.agent")
+    val defaultUserAgent = System.getProperty("http.agent")
 
     private const val tagGroupContent = "content"
     private const val tagGroupFormat = "format"
